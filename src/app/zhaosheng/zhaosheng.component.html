@@ -1,0 +1,27 @@
+<div class="container">
+    <h3 style="text-align: center;color: #4f9d9d"><strong>招生专业及计划</strong></h3>
+    <hr style="height:1px;border:none;border-top:4px solid #4f9d9d;"/>
+    <div class="table-responsive">
+<table class="table table-striped table-hover">
+<thead>
+    <tr>
+        <th>专业类别</th>
+        <th>专业方向（定向委培）</th>
+        <th>招生计划（限额）</th>
+        <th>学历文凭</th>
+    </tr>
+</thead>
+<tbody>
+    <tr *ngFor="let jihua of jihuas">
+        <td>{{jihua.leibie}}</td>
+        <td>{{jihua.pro}}</td>
+        <td>{{jihua.plan}}</td>
+        <td>{{jihua.wenping}}</td>
+    </tr>
+</tbody>
+</table>
+    </div>
+    <p><strong>说明：</strong>1、学生选择专业（方向）建议：尊重学生意愿、参考我院老师意见、关注将来就业趋势</p>
+    <p>2、我院实行统一招生和自主招生两种招生模式。新生通过我院招办报考与统一招生模式一样合法有效，不必重复填报志愿。</p>
+    
+</div>

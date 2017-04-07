@@ -1,0 +1,44 @@
+<router-outlet></router-outlet>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <div style="background: #ffffff;height:65px"></div>
+      <div class="thumbnail">
+        <img src="../../assets/img/test235x140.bmp" alt="...">
+        <img src="../../assets/img/test235x115.jpg" alt="...">
+        <div class="caption">
+          <p><a href="#" class="btn btn-danger btn-block" role="button">在线咨询</a></p>
+          <p><a href="#" class="btn btn-danger btn-block" role="button">在线报名</a></p>
+          <p><a href="#" class="btn btn-danger btn-block" role="button">预约参观</a></p>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-9">
+      <h3 style="text-align: center;color: #4f9d9d"><strong>新闻动态</strong></h3>
+      <hr style="height:1px;border:none;border-top:4px solid #4f9d9d;"/>
+      <div *ngFor="let articleList of articleLists">
+        <div class="row">
+          <div class="col-md-3">
+            <img [src]="articleList.image" class="img-responsive">
+          </div>
+          <div class="col-md-9">
+            <a style="color: #4f9d9d;font-size: 18px"
+               [routerLink]="articleList.link"><strong>{{articleList.title}}</strong></a>
+            <br/><br/>
+            <p>{{articleList.des}}</p>
+          </div>
+        </div>
+        <hr style="height:1px;border:none;border-top:2px solid #4f9d9d;"/>
+      </div>
+    </div>
+
+
+  </div>
+
+</div>
+
+<div style="background: #ffffff;height:20px"></div>
+
+

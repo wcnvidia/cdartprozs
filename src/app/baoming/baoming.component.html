@@ -1,0 +1,124 @@
+<router-outlet></router-outlet>
+<div class="container">
+  <div class="row ">
+
+
+    <h3 style="text-align: center;color: #4f9d9d"><strong>在线报名</strong></h3>
+    <hr style="height:1px;border:none;border-top:4px solid #4f9d9d;"/>
+
+
+  </div>
+</div>
+
+<form class="form-horizontal container" role="form" action="">
+  <fieldset>
+
+    <div class="form-group">
+      <label class="col-sm-2 control-label" for="aname">姓名：</label>
+      <div class="col-sm-4">
+        <input class="form-control" id="aname" type="text" #nameRef placeholder="请输入您的姓名" required/>
+      </div>
+      <label class="col-sm-2 control-label">性别：</label>
+      <div class="col-sm-4">
+        <select class="form-control" #genderRef>
+          <option>男</option>
+          <option>女</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-sm-2 control-label" for="aphone">电话：</label>
+      <div class="col-sm-4">
+        <input class="form-control" id="aphone" type="tel" #phoneRef placeholder="请输入您的联系电话" required/>
+      </div>
+      <label class="col-sm-2 control-label" for="aqq">Q Q：</label>
+      <div class="col-sm-4">
+        <input class="form-control" id="aqq" type="tel" #qqRef placeholder="请输入您的联系QQ"/>
+      </div>
+
+    </div>
+
+    <div class="form-group">
+      <label class="col-sm-2 control-label" for="awechat">微信：</label>
+      <div class="col-sm-4">
+        <input class="form-control" id="awechat" #wechatRef type="text" placeholder="请输入您的微信号"/>
+      </div>
+      <label class="col-sm-2 control-label">专业：</label>
+      <div class="col-sm-4">
+        <select class="form-control" #proRef>
+          <optgroup label="轨道交通">
+            <option>高铁运营与管理</option>
+            <option>地铁运营与管理</option>
+          </optgroup>
+          <optgroup label="学前教育">
+            <option>艺术幼师</option>
+            <option>双语幼师</option>
+          </optgroup>
+          <optgroup label="汽车">
+            <option>汽车制造与装配</option>
+            <option>汽车检测与维修</option>
+            <option>汽车销售</option>
+          </optgroup>
+          <optgroup label="管理">
+             <option>连锁店经营与酒店管理</option>
+            <option>会计与统计核算</option>
+          </optgroup>
+          <optgroup label="环艺">
+            <option>环境艺术设计</option>
+            <option>室内装饰设计</option>
+          </optgroup>
+          <optgroup label="工程">
+            <option>道路与桥梁工程</option>
+            <option>工程造价</option>
+            <option>建筑施工与管理</option>
+          </optgroup>
+          <optgroup label="信息技术">
+            <option>电子信息工程</option>
+            <option>数控技术</option>
+            <option>电子商务</option>
+            <option>网站建设与管理</option>
+            <option>网络信息系统管理（计算机应用技术）</option>
+            <option>动漫游戏制作与设计</option>
+          </optgroup>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="col-sm-2 control-label" for="aschool">毕业学校：</label>
+      <div class="col-sm-4">
+        <input class="form-control" id="aschool" #schoolRef type="text" placeholder="例:成都市XX中学" required/>
+      </div>
+      <label class="col-sm-2 control-label" for="baddress">通讯地址：</label>
+      <div class="col-sm-4">
+        <input class="form-control" #addressRef id="baddress" type="text" placeholder="例:成都市新津县花源镇白云大道115号"/>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="col-sm-2 control-label" for="aremark">备注：</label>
+      <div class="col-sm-10">
+        <textarea class="form-control" id="aremark" #remarkRef></textarea>
+      </div>
+    </div>
+
+
+  </fieldset>
+
+  <fieldset>
+    <div class="form-group">
+      <label class="col-sm-2 control-label"></label>
+      <div class="col-sm-10">
+        <button class="btn btn-primary  btn-lg" (click)="showMsg();sendFire(nameRef.value,genderRef.value,phoneRef.value,qqRef.value,wechatRef.value,proRef.value,schoolRef.value,addressRef.value,remarkRef.value)">立 即 报 名</button>
+      </div>
+    </div>
+
+  </fieldset>
+
+
+</form>
+
+
+<div style="background: #ffffff;height:20px"></div>
+
+
