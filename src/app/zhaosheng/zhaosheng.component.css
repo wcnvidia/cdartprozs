@@ -1,0 +1,9 @@
+.title{
+    text-align: center;
+    color: #4f9d9d
+}
+.hr{
+    height:1px;
+    border:none;
+    border-top:4px solid #4f9d9d;
+}
