@@ -32,7 +32,7 @@ import { RemenComponent } from './share/remen/remen.component';
     AppComponent,
     AdComponent,
     RemenComponent,
-
+    
   ],
   imports: [
     BrowserModule,
