@@ -1,0 +1,26 @@
+.title{
+    text-align: center;
+    color: #4f9d9d;
+}
+.hr{
+    height:1px;
+    border:none;
+    border-top:4px solid #4f9d9d;
+}
+.bgh65{
+    background: #ffffff;
+    height:65px
+}
+.bgh20{
+    background: #ffffff;
+    height:20px
+}
+.content{
+    font-size: 18px;
+    color:#000000;
+}
+.bdmap{
+    width: 450px;
+    height: 400px;
+    display: block;
+}
