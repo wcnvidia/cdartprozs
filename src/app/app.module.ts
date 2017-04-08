@@ -19,7 +19,7 @@ import { AppComponent } from './app.component';
 import {HashLocationStrategy, LocationStrategy} from '@angular/common';
 
 import { AdComponent } from './share/ad/ad.component';
-import { RemenComponent } from './share/remen/remen.component';
+
 
 
 
@@ -31,7 +31,7 @@ import { RemenComponent } from './share/remen/remen.component';
   declarations: [
     AppComponent,
     AdComponent,
-    RemenComponent,
+    
     
   ],
   imports: [

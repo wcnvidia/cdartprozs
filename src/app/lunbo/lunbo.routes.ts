@@ -8,8 +8,13 @@ const LunboRoutes : Routes = [
     children:[
       {
         path:'',
+        loadChildren:'app/share/remen/remen.module#RemenModule',
+      },
+      {
+        path:'',
         loadChildren:'app/share/zhulunbo/zhulunbo.module#ZhulunboModule',
       },
+       
 
     ]
   },

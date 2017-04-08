@@ -1,3 +1,10 @@
-<p>
-  remen works!
-</p>
+<div class="col-md-3" *ngFor="let remen of remens">
+    <div class="thumbnail">
+        <img [src]="remen.img" alt="...">
+        <div class="caption">
+            <h3>{{remen.title}}</h3>
+            <p>{{remen.des}}</p>
+            <p><a href="#" class="btn btn-primary" role="button" [routerLink]="remen.link">查看详情</a> </p>
+        </div>
+    </div>
+</div>
