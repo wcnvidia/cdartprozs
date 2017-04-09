@@ -19,8 +19,7 @@
     font-size: 18px;
     color:#000000;
 }
-.bdmap{
-    width: 450px;
+.gdmap{
+    width: 100%;
     height: 400px;
-    display: block;
 }
