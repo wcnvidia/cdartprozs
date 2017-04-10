@@ -1,4 +1,16 @@
-# Oapp
+#Angular2 
+
+这是一个用angular2制作的招生网站。[成都艺术职业学院招生网](http://www.cdartprozs.com/)。
+
+# Bootstrap
+
+css框架采用了[ngx-bootstrap](https://github.com/valor-software/ngx-bootstrap)。
+
+#Firebase
+
+后端使用了[angularfire2](https://github.com/angular/angularfire2),目的是为了收集表单数据。
+
+# Angular2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
@@ -23,6 +35,3 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 Before running the tests make sure you are serving the app via `ng serve`.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
