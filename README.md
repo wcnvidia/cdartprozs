@@ -2,7 +2,7 @@
 
 这是一个用angular2制作的招生网站。[成都艺术职业学院招生网](http://www.cdartprozs.com/)。
 
-# Bootstrap
+#Bootstrap
 
 css框架采用了[ngx-bootstrap](https://github.com/valor-software/ngx-bootstrap)。
 
