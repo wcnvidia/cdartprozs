@@ -3,7 +3,7 @@ import { CommonModule }   from '@angular/common';
 import {BaomingComponent} from './baoming.component';
 import {BaomingRoutingModule} from './baoming.routes';
 import { AngularFireModule } from 'angularfire2';
-import { ModalModule } from 'ng2-bootstrap/modal';
+import { ModalModule } from 'ngx-bootstrap/modal';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyCR5VHTSfPHDrCpoInopksf1Kka43IPBaE",

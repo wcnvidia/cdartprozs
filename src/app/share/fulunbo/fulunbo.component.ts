@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CarouselConfig } from 'ng2-bootstrap/carousel';
+import { CarouselConfig } from 'ngx-bootstrap/carousel';
 @Component({
   selector: 'app-fulunbo',
   templateUrl: './fulunbo.component.html',

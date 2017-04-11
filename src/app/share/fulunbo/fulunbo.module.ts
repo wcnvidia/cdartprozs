@@ -1,6 +1,6 @@
 import { NgModule}       from '@angular/core';
 import { CommonModule }   from '@angular/common';
-import { CarouselModule } from 'ng2-bootstrap/carousel';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 import {FulunboComponent} from './fulunbo.component';
 import {FulunboRoutingModule} from './fulunbo.routes'
 
