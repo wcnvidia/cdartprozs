@@ -18,7 +18,8 @@ import { AppComponent } from './app.component';
 
 import {HashLocationStrategy, LocationStrategy} from '@angular/common';
 
-import { AdComponent } from './share/ad/ad.component';
+
+
 
 
 
@@ -30,7 +31,8 @@ import { AdComponent } from './share/ad/ad.component';
 @NgModule({
   declarations: [
     AppComponent,
-    AdComponent,
+   
+    
     
     
   ],
