@@ -1,8 +1,7 @@
-import {NgModule} from '@angular/core';
-import {Routes, RouterModule} from '@angular/router';
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
 
 export const routes: Routes = [
-
   {
     path: '',
     redirectTo: 'home',
@@ -19,6 +18,14 @@ export const routes: Routes = [
   {
     path: 'zhuanye',
     loadChildren: 'app/zhuanye/zhuanye.module#ZhuanyeModule'
+  },
+  {
+    path: 'jpzhuanye',
+    loadChildren: 'app/jp-zhuanye/jp-zhuanye.module#JpZhuanyeModule'
+  },
+  {
+    path: 'tszhuanye',
+    loadChildren: 'app/ts-zhuanye/ts-zhuanye.module#TsZhuanyeModule'
   },
   {
     path: 'wenzhang',
@@ -40,9 +47,6 @@ export const routes: Routes = [
     path: 'lianxi',
     loadChildren: 'app/lianxi/lianxi.module#LianxiModule'
   },
-
-
-
 ]
 @NgModule(
   {
