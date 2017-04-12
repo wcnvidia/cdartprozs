@@ -1,79 +1,120 @@
-header{
-  font-family: "Microsoft YaHei",微软雅黑;
+header {
+    font-family: "Microsoft YaHei", 微软雅黑;
 }
-body{
-  font-family: "Microsoft YaHei",微软雅黑;
+
+body {
+    font-family: "Microsoft YaHei", 微软雅黑;
 }
-footer{
-  font-family: "Microsoft YaHei",微软雅黑;
+
+footer {
+    font-family: "Microsoft YaHei", 微软雅黑;
 }
 
 .navbar-default {
-  background-color: #336666;
-  border-color: #26473a;
+    background-color: #336666;
+    border-color: #26473a;
 }
+
 .navbar-default .navbar-brand {
-  color: #ffffff;
+    color: #ffffff;
 }
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #eaeaea;
+    color: #eaeaea;
 }
+
 .navbar-default .navbar-text {
-  color: #ffffff;
+    color: #ffffff;
 }
-.navbar-default .navbar-nav > li > a {
-  color: #ffffff;
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
 }
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #eaeaea;
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #eaeaea;
 }
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #eaeaea;
-  background-color: #26473a;
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #eaeaea;
+    background-color: #26473a;
 }
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: #eaeaea;
-  background-color: #26473a;
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    color: #eaeaea;
+    background-color: #26473a;
 }
+
 .navbar-default .navbar-toggle {
-  border-color: #26473a;
+    border-color: #26473a;
 }
+
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #26473a;
+    background-color: #26473a;
 }
+
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #ffffff;
+    background-color: #ffffff;
 }
+
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #ffffff;
+    border-color: #ffffff;
 }
+
 .navbar-default .navbar-link {
-  color: #ffffff;
+    color: #ffffff;
 }
+
 .navbar-default .navbar-link:hover {
-  color: #eaeaea;
+    color: #eaeaea;
 }
 
 @media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #ffffff;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #eaeaea;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #eaeaea;
-    background-color: #26473a;
-  }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+        color: #eaeaea;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
+        color: #eaeaea;
+        background-color: #26473a;
+    }
+}
+
+.bgh15 {
+    background: #4f9d9d;
+    height: 15px
+}
+
+.bgh20 {
+    background: #4f9d9d;
+    height: 20px
+}
+
+.bgColor {
+    background: #4f9d9d
+}
+
+.margin0 {
+    margin: 0
+}
+
+.fontSize15 {
+    font-size: 15px;
+}
+
+.fontColor {
+    color: white
 }

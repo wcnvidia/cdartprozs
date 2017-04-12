@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app.routes';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { AppComponent } from './app.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
-
+import { CollapseModule } from 'ngx-bootstrap/collapse';
 
 @NgModule({
   declarations: [
@@ -18,6 +18,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     HttpModule,
     AppRoutingModule,
     ButtonsModule.forRoot(),
+    CollapseModule.forRoot(),
   ],
   providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent],

@@ -1,7 +1,13 @@
 <div class="container">
+    <div class="bgh20"></div>
     <div class="row">
         <div class="col-md-3">
-            <p>123 </p>
+            <button type="button" class="btn btn-primary btn-block" (click)="isCollapsed = !isCollapsed">折叠</button>
+            <div (collapsed)="collapsed($event)" (expanded)="expanded($event)" [collapse]="isCollapsed" class="card card-block card-header">
+                <div class="list-group">
+                    <a href="#" class="list-group-item" *ngFor="let jpName of jpNames" [routerLink]="jpName.link"><span class="badge">{{jpName.badge}}</span>{{jpName.name}}</a>
+                </div>
+            </div>
         </div>
         <div class="col-md-9">
             <p>456</p>

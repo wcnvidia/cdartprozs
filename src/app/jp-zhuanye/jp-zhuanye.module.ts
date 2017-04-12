@@ -1,5 +1,5 @@
 import { JpZhuanyeComponent } from './jp-zhuanye.component';
-import { AdModule } from './../share/ad/ad.module';
+import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -8,7 +8,7 @@ import { JpZhuanyeRoutingModule } from './jp-zhuanye.routes';
 
 @NgModule(
   {
-    imports: [CommonModule, JpZhuanyeRoutingModule,],
+    imports: [CommonModule, JpZhuanyeRoutingModule,CollapseModule.forRoot()],
     declarations: [JpZhuanyeComponent],
   }
 )
