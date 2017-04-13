@@ -1,9 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-
-
-
-
 @Component({
   selector: 'app-gaikuang',
   templateUrl: './gaikuang.component.html',

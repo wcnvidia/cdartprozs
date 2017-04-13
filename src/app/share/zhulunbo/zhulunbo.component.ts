@@ -1,3 +1,4 @@
+
 import { Component, OnInit } from '@angular/core';
 import { CarouselConfig } from 'ngx-bootstrap/carousel';
 
@@ -13,7 +14,8 @@ const Carousels:Carousel[]=[
   selector: 'app-zhulunbo',
   templateUrl: './zhulunbo.component.html',
   styleUrls: ['./zhulunbo.component.css'],
-  providers: [{provide: CarouselConfig, useValue: {interval: 1500, noPause: true}}]
+  providers: [{provide: CarouselConfig, useValue: {interval: 1500, noPause: true}}],
+  
 })
 export class ZhulunboComponent implements OnInit {
   carousels=Carousels
