@@ -1,14 +1,5 @@
 <carousel>
-  <slide>
-    <img src="../../../assets/img/img01.jpg" alt="First slide">
-
-  </slide>
-  <slide>
-    <img src="../../../assets/img/img02.jpg" alt="Second slide">
-
-  </slide>
-  <slide>
-    <img src="../../../assets/img/img03.jpg" alt="Third slide">
-
-  </slide>
+    <slide *ngFor="let carousel of carousels ">
+        <img [src]="carousel.url" alt="First slide">
+    </slide>
 </carousel>

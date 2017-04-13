@@ -20,26 +20,8 @@
     <div class="row">
         <div class="col-md-6">
             <carousel>
-                <slide>
-                    <img src="../../assets/img/test360x300.jpg" alt="First slide">
-                    <div class="carousel-caption">
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </div>
-                </slide>
-                <slide>
-                    <img src="../../assets/img/test360x300.jpg" alt="Second slide">
-                    <div class="carousel-caption">
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </slide>
-                <slide>
-                    <img src="../../assets/img/test360x300.jpg" alt="Third slide">
-                    <div class="carousel-caption">
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </div>
+                <slide *ngFor="let test of tests">
+                    <img [src]="test.url" alt="First slide">
                 </slide>
             </carousel>
         </div>
@@ -48,24 +30,16 @@
         <div class="col-md-6">
             <tabset>
                 <tab heading="学院新闻">
-
                     <br/>
-                    <span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span> <a style="color: #000000" routerLink="/wenzhang/article1">【专栏】职业院校管理水平提升行动计划</a><br/><br/>
-                    <span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span><a style="color: #000000" routerLink="/wenzhang/article2"> 招标公告：教学仪器设备采购</a><br/><br/>
-                    <span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span><a style="color: #000000">    余开源：冀文化事业和文化产业成为四川国民经济新的支柱性产业</a><br/><br/>
-                    <span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span><a style="color: #000000">    成都艺术职业学院建筑工程学院建筑材料检测实训中心简介</a><br/><br/>
-                    <span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span><a style="color: #000000">    我院召开党建、思政和校园文化建设专题工作会 </a>
-
+                    <div *ngFor="let collegeNews of collegeNewses">
+                        <span class="glyphicon glyphicon-unchecked"></span> <a class="blackColor" [routerLink]="collegeNews.link">{{collegeNews.title}}</a><br/><br/>
+                    </div>
                 </tab>
                 <tab heading="院系动态">
-
                     <br/>
-                    <span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span> <a style="color: #000000"> 视觉传达学子在省第一届公益广告大赛中再创佳绩</a><br/><br/>
-                    <span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span><a style="color: #000000"> 2017届毕业生校园系列专场招聘会在青神校区陆续展开</a><br/><br/>
-                    <span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span><a style="color: #000000"> 管理系举办第一届酒店管理专业技能大赛</a><br/><br/>
-                    <span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span><a style="color: #000000">  《立体 裁剪》课程展览</a><br/><br/>
-                    <span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span><a style="color: #000000">    我院召开党建、思政和校园文化建设专题工作会 </a>
-
+                    <div *ngFor="let collegeDynamic of collegeDynamics">
+                        <span class="glyphicon glyphicon-unchecked"></span> <a class="blackColor" [routerLink]="collegeDynamic.link">{{collegeDynamic.title}}</a><br/><br/>
+                    </div>
                 </tab>
             </tabset>
 
@@ -80,20 +54,9 @@
     <h3 class="maincolor">校园生活</h3>
     <hr/>
     <div class="row">
-        <div class="col-md-3">
-            <img src="../../assets/img/imgb1.jpg" class="img-responsive" alt="">
-        </div>
-        <div class="col-md-3">
-            <img src="../../assets/img/imgb2.jpg" class="img-responsive" alt="">
-        </div>
-
-        <div class="col-md-3">
-            <img src="../../assets/img/imgb3.jpg" class="img-responsive" alt="">
-        </div>
-        <div class="col-md-3">
-            <img src="../../assets/img/imgb3.jpg" class="img-responsive" alt="">
+        <div class="col-md-3" *ngFor="let campusLive of campusLives">
+            <img [src]="campusLive.url" class="img-responsive" alt="">
         </div>
     </div>
-
 </div>
 <div class="bgh20"></div>
