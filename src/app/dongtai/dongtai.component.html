@@ -10,8 +10,8 @@
     <div class="col-md-9">
       <h3 class="title"><strong>新闻动态</strong></h3>
       <hr class="hrBorder-top4" />
-      <div *ngFor="let articleList of articleLists">
-        <div class="row">
+      <div *ngFor="let articleList of articleLists" class="hoverable">
+        <div class="row ">
           <div class="col-md-3">
             <img [src]="articleList.image" class="img-responsive">
           </div>

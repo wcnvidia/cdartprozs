@@ -2,25 +2,10 @@
     <div class="bgh20"></div>
     <div class="row">
         <div class="col-md-3">
-            <button type="button" class="btn btn-primary btn-block" (click)="isCollapsed = !isCollapsed">折叠</button>
-            <div (collapsed)="collapsed($event)" (expanded)="expanded($event)" [collapse]="isCollapsed" class="card card-block card-header">
-                <div class="list-group">
-                    <a href="#" class="list-group-item" *ngFor="let jpName of jpNames" [routerLink]="jpName.link"><span class="badge">{{jpName.badge}}</span>{{jpName.name}}</a>
-                </div>
-            </div>
+        <app-zhuanye-list></app-zhuanye-list>
         </div>
         <div class="col-md-9">
-             <ul>
-    <li *ngFor="let item of items | async">
-      {{ item.text }}
-    </li>
-  </ul>
-  <div>
-    <h4>Filter by size</h4>
-    <button (click)="filterBy('small')">Small</button>
-    <button (click)="filterBy('medium')">Medium</button>
-    <button (click)="filterBy('large')">Large</button>
-  </div>
+            
         </div>
     </div>
 </div>
