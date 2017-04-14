@@ -20,12 +20,8 @@ export const routes: Routes = [
     loadChildren: 'app/zhuanye/zhuanye.module#ZhuanyeModule'
   },
   {
-    path: 'jpzhuanye',
+    path: 'zhuanye/detail',
     loadChildren: 'app/jp-zhuanye/jp-zhuanye.module#JpZhuanyeModule'
-  },
-  {
-    path: 'tszhuanye',
-    loadChildren: 'app/ts-zhuanye/ts-zhuanye.module#TsZhuanyeModule'
   },
   {
     path: 'wenzhang',
