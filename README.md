@@ -10,9 +10,13 @@ css框架采用了[ngx-bootstrap](https://github.com/valor-software/ngx-bootstra
 
 后端使用了[angularfire2](https://github.com/angular/angularfire2),目的是为了收集表单数据。
 
-# Angular2
+## Angular2 CLI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+
+## Package dependencies
+
+Run `npm install` to install packages.
 
 ## Development server
 
