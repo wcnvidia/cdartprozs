@@ -10,9 +10,9 @@
             <h3 class="title"><strong>专业设置</strong></h3>
             <hr class="hr" />
             <div class="row">
-                <div class="col-md-4" *ngFor="let zhuanye of zhuanyes">
-                    <div class="thumbnail hoverable">
-                        <img [src]="zhuanye.img" alt="...">
+                <div class="col-md-4  " *ngFor="let zhuanye of zhuanyes">
+                    <div class="thumbnail hoverable ctrlImgSize">
+                        <img [src]="zhuanye.img" alt="..." class="img-responsive">
                         <div class="caption">
                             <h3>{{zhuanye.name}}</h3>
                             <p>{{zhuanye.des}}</p>
