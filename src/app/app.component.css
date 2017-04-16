@@ -118,6 +118,10 @@ footer {
 .fontColor {
     color: white
 }
+
 .btn-nav {
     background: #336666;
+}
+.navbar{
+    min-height: 0
 }
