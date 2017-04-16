@@ -125,3 +125,7 @@ footer {
 .navbar{
     min-height: 0
 }
+.qrCode{
+    width:80px;
+    height:80px;
+}

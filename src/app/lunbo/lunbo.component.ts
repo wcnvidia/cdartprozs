@@ -27,7 +27,7 @@ const Tests: Test[] = [
   { url: "http://i4.buimg.com/591259/4afe8618eee5ee73.jpg" },
 ]
 const CollegeNewses:CollegeNews[]=[
-  {title:"【专栏】职业院校管理水平提升行动计划",link:""},
+  {title:"属于程序员的未来|终极揭秘web前端后端开发",link:"/wenzhang/article1"},
   {title:"招标公告：教学仪器设备采购",link:""},
   {title:"余开源：冀文化事业和文化产业成为四川国民经济新的支柱性产业",link:""},
   {title:"成都艺术职业学院建筑工程学院建筑材料检测实训中心简介",link:""},

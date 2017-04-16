@@ -29,14 +29,6 @@ const Footers: Footer[] = [
     content4: '关于我们',
     class: 'col-md-3',
   },
-  {
-    title: '关注我们',
-    content1: '',
-    content2: '',
-    content3: '',
-    content4: '',
-    class: 'col-md-3',
-  },
 ]
 
 const Navs: Nav[] = [
