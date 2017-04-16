@@ -11,11 +11,13 @@
             <hr class="hr" />
             <div class="row">
                 <div class="col-md-4  " *ngFor="let zhuanye of zhuanyes">
-                    <div class="thumbnail hoverable ctrlImgSize">
-                        <img [src]="zhuanye.img" alt="..." class="img-responsive">
+                    <div class="thumbnail hoverable ">
+                        <img [src]="zhuanye.img" alt="..." class="img-responsive ctrlImgSize">
                         <div class="caption">
+                            <div class="ctrlCaptionSize">
                             <h3>{{zhuanye.name}}</h3>
                             <p>{{zhuanye.des}}</p>
+                            </div>
                             <p><a [routerLink]="['/zhuanye',zhuanye.link]" class="btn btn-primary" role="button">查看详情</a> </p>
                         </div>
                     </div>
