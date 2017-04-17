@@ -43,6 +43,10 @@ export const routes: Routes = [
     path: 'lianxi',
     loadChildren: 'app/lianxi/lianxi.module#LianxiModule'
   },
+  {
+    path: '**',
+    loadChildren: 'app/lunbo/lunbo.module#LunboModule'
+  },
 ]
 @NgModule(
   {
