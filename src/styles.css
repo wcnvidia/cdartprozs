@@ -1,5 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+#container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 
+@media (min-width: 576px) {
+  #container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  #container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  #container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 576px) {
+  #container {
+    width: 540px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  #container {
+    width: 720px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  #container {
+    width: 960px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #container {
+    width: 1140px;
+    max-width: 100%;
+  }
+}
 .spinner {
   margin: 100px auto 0;
   width: 150px;
@@ -9,7 +70,7 @@
 .spinner > div {
   width: 30px;
   height: 30px;
-  background-color: #67CF22;
+  background-color: rgba(255, 165, 150, 0.5);
  
   border-radius: 100%;
   display: inline-block;
@@ -148,4 +209,9 @@
 
 .center {
     text-align: center;
+}
+.bq {
+    border-left: 1em solid rgba(255, 165, 150, 0.5);
+    background: #f1f1f1;
+    font-style: italic;
 }
