@@ -3,7 +3,7 @@
     <div class="container-fluid top-bg bgColor">
         <div class="container">
             <div class="row">
-                <div class="col-md-12"><img src="http://i4.buimg.com/591259/090c7ba1ec74b841.gif" height="50"></div>
+                <div class="col-md-12"><a routerLink="/home"><img src="http://i4.buimg.com/591259/090c7ba1ec74b841.gif" height="50"></a></div>
             </div>
         </div>
     </div>
@@ -13,9 +13,9 @@
         <div class="container">
             <button type="button" class=" navbar-toggler visible-xs btn btn-nav" (click)="isCollapsed = !isCollapsed"><span class="glyphicon glyphicon-menu-hamburger fontColor fontSize" aria-hidden="true"></span><span class="fontColor fontSize">展开/收缩导航栏</span></button>
             <div (collapsed)="collapsed($event)" (expanded)="expanded($event)" [collapse]="isCollapsed" class=" collapse   ">
-                <ul class="nav navbar-nav  ">
-                    <li class="nav-item " *ngFor="let nav of navs">
-                        <a class="nav-link " [routerLink]="nav.link">{{nav.name}}</a>
+                <ul class="nav navbar-nav ">
+                    <li class="nav-item" *ngFor="let nav of navs">
+                        <a class="nav-link choosen" [routerLink]="nav.link" routerLinkActive="active-link" >{{nav.name}}</a>
                     </li>
                 </ul>
             </div>
@@ -44,7 +44,7 @@
                 <div class="col-md-3">
                     <h3 class="fontColor">关注我们</h3>
                     <hr/>
-                    <img src="../assets/img/wechatQrCode.jpg" alt="微信二维码" class="qrCode">
+                    <img src="../assets/img/wechatQrCode.jpg" alt="微信二维码" class="qrCode hoverable">
                 </div>
             </div>
         </div>
