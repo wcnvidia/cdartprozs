@@ -30,7 +30,7 @@ const CollegeNewses:CollegeNews[]=[
   {title:"属于程序员的未来|终极揭秘web前端后端开发",link:"/wenzhang/article1"},
   {title:"高速无线网速是如何实现的？",link:"/wenzhang/article2"},
   {title:"“智能+医疗”=人工智能?|政府工作报告开启云平台云竞技",link:"/wenzhang/article3"},
-  {title:"成都艺术职业学院建筑工程学院建筑材料检测实训中心简介",link:""},
+  {title:"机器学习>网络开发？来看外国网友怎么说",link:"/wenzhang/article4"},
   {title:"我院召开党建、思政和校园文化建设专题工作会",link:""},
 ]
 const CollegeDynamics:CollegeDynamic[]=[

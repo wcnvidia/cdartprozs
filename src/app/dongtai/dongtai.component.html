@@ -13,7 +13,7 @@
       <div *ngFor="let articleList of articleLists" class="hoverable">
         <div class="row ">
           <div class="col-md-3">
-            <img [src]="articleList.image" class="img-responsive">
+            <img [src]="articleList.image" class="img-responsive img">
           </div>
           <div class="col-md-9">
             <a class="contentTitle"
@@ -32,5 +32,20 @@
 </div>
 
 <div class="bgh20"></div>
+
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
 
 
