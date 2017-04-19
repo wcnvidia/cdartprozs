@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Major1Component } from './major1.component';
+import { Major1Component } from './major2.component';
 
 describe('Major1Component', () => {
   let component: Major1Component;

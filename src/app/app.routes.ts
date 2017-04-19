@@ -21,7 +21,7 @@ export const routes: Routes = [
   },
   {
     path: 'zhuanye/detail',
-    loadChildren: 'app/jp-zhuanye/jp-zhuanye.module#JpZhuanyeModule'
+    loadChildren: 'app/detail/detail.module#DetailModule'
   },
   {
     path: 'wenzhang',

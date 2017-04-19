@@ -1,3 +1,4 @@
+import { DetailModule } from './../detail/detail.module';
 import {Routes, RouterModule} from '@angular/router';
 import { NgModule } from '@angular/core';
 import {ZhuanyeComponent} from './zhuanye.component';

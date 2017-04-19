@@ -1,16 +1,16 @@
-import { Major1RoutingModule } from './major1.routes';
+import { Major2RoutingModule } from './major2.routes';
 
-import { Major1Component } from './major1.component';
+import { Major2Component } from './major2.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 
 @NgModule(
   {
-    imports: [CommonModule,Major1RoutingModule ],
-    declarations: [Major1Component],
+    imports: [CommonModule,Major2RoutingModule ],
+    declarations: [Major2Component],
   }
 )
-export class Major1Module {
+export class Major2Module {
 
 }

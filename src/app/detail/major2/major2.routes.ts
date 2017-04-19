@@ -1,15 +1,15 @@
-import { Major1Component } from './major1.component';
+import { Major2Component } from './major2.component';
 import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
-const Major1Routes: Routes = [
+const Major2Routes: Routes = [
   {
     path: '',
-    component: Major1Component,
+    component: Major2Component,
   },
 ];
-const Major1Routing = RouterModule.forChild(Major1Routes)
+const Major2Routing = RouterModule.forChild(Major2Routes)
 @NgModule({
-  imports: [Major1Routing],
+  imports: [Major2Routing],
   exports: [RouterModule]
 })
-export class Major1RoutingModule { }
+export class Major2RoutingModule { }
