@@ -18,7 +18,7 @@ const DetailRoutes: Routes = [
       },
       {
         path:'major3',
-        loadChildren:'app/detail/major3/major3.module#Major2Module',
+        loadChildren:'app/detail/major3/major3.module#Major3Module',
       },
       {
         path:'major4',
@@ -58,7 +58,7 @@ const DetailRoutes: Routes = [
       },
       {
         path:'major13',
-        loadChildren:'app/detail/Major1Module13/major3.module#Major2Module',
+        loadChildren:'app/detail/major13/major3.module#Major2Module',
       },
       {
         path:'major14',

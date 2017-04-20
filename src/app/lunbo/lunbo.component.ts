@@ -31,7 +31,7 @@ const CollegeNewses:CollegeNews[]=[
   {title:"高速无线网速是如何实现的？",link:"/wenzhang/article2"},
   {title:"“智能+医疗”=人工智能?|政府工作报告开启云平台云竞技",link:"/wenzhang/article3"},
   {title:"机器学习>网络开发？来看外国网友怎么说",link:"/wenzhang/article4"},
-  {title:"我院召开党建、思政和校园文化建设专题工作会",link:""},
+  {title:"为什么说现在是汽车销售的春天？来看看这些suv吧",link:"/wenzhang/article5"},
 ]
 const CollegeDynamics:CollegeDynamic[]=[
   {title:"视觉传达学子在省第一届公益广告大赛中再创佳绩",link:""},

@@ -11,6 +11,6 @@ import { CommonModule } from '@angular/common';
     declarations: [Major2Component],
   }
 )
-export class Major2Module {
+export class Major3Module {
 
 }
