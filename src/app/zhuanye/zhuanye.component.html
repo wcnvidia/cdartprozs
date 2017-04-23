@@ -10,7 +10,7 @@
             <h3 class="title"><strong>专业设置</strong></h3>
             <hr class="hr" />
             <div class="row">
-                <div class="col-md-4" *ngFor="let zhuanye of zhuanyes">
+                <!--<div class="col-md-4" *ngFor="let zhuanye of zhuanyes">
                     <div class="thumbnail hoverable choosen">
                         <img [src]="zhuanye.img" alt="..." class="img-responsive ctrlImgSize">
                         <div class="caption">
@@ -21,7 +21,20 @@
                             <p><a [routerLink]="zhuanye.link" class="btn btn-primary" role="button">查看详情</a> </p>
                         </div>
                     </div>
-                </div>
+                </div>-->
+                <div class="col-md-4" *ngFor="let zhuanye of zhuanyes">
+        <div class="card card-blog hoverable">
+            <div class="card-image">
+                <a [routerLink]="zhuanye.link"  > <img class="img-responsive center-block" [src]="zhuanye.img"></a>
+                <div class="ripple-cont"></div>
+            </div>
+            <div class="table">
+                <h6 class="category fontPrimary">{{zhuanye.title}}</h6>
+                <p class="card-description"> {{zhuanye.des}}</p>
+                <div class="ftr text-center"> <a [routerLink]="zhuanye.link"class="btn  hoverable btn-primary">更多信息</a> </div>
+            </div>
+        </div>
+    </div>
             </div>
         </div>
     </div>

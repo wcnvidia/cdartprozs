@@ -1,6 +1,12 @@
 .btn-primary{
 background: #4f9d9d;
 }
+.fontWhite{
+    color: #ffffff
+}
+.fontPrimary{
+    color: #4f9d9d
+}
 .hoverable {
     transition: box-shadow .25s;
     box-shadow: 0;
@@ -11,6 +17,8 @@ background: #4f9d9d;
 .ctrlImgSize {
     height: 185px;
     width: 95%;
+   
+   
 }
 .ctrlCaptionSize {
     height: 200px;
@@ -20,14 +28,9 @@ background: #4f9d9d;
     height: 120px;
     width: 100%;
 }
-
-.choosen {
-    transition: border-bottom .25s;
-    box-shadow: 0;
+.card-description{
+    height: 112px
 }
 
-.choosen:hover {
-    border-top: 8px solid #4f9d9d;
-    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+
 

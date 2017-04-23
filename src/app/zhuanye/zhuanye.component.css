@@ -44,3 +44,12 @@
     border-top: 8px solid #4f9d9d;
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.fontWhite{
+    color: #ffffff
+}
+.fontPrimary{
+    color: #4f9d9d
+}
+.card-description{
+    height: 175px
+}
