@@ -18,15 +18,13 @@
 <div class="bgh10"></div>
 <div class="container">
     <div class="row">
-        <div class="col-md-6" >
-            <carousel class="radius6">
-                <slide *ngFor="let test of tests" >
+        <div class="col-md-6">
+            <carousel>
+                <slide *ngFor="let test of tests">
                     <img [src]="test.url" alt="First slide">
                 </slide>
             </carousel>
         </div>
-
-
         <div class="col-md-6">
             <tabset>
                 <tab heading="学院新闻">
@@ -42,11 +40,8 @@
                     </div>
                 </tab>
             </tabset>
-
         </div>
-
     </div>
-
 </div>
 <div class="bgh30"></div>
 
@@ -55,7 +50,7 @@
     <hr/>
     <div class="row">
         <div class="col-md-3" *ngFor="let campusLive of campusLives">
-            <img [src]="campusLive.url" class="img-responsive hoverable radius6" alt="">
+            <img [src]="campusLive.url" class="img-responsive hoverable card" alt="">
         </div>
     </div>
 </div>

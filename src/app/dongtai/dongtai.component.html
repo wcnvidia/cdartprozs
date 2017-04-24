@@ -9,20 +9,19 @@
     </div>
     <div class="col-md-9">
       <h3 class="title"><strong>新闻动态</strong></h3>
-      <hr class="hrBorder-top4" />
-      <div *ngFor="let articleList of articleLists" class="hoverable">
+      <hr class="hr" />
+      <div *ngFor="let articleList of articleLists" class="hoverable card">
         <div class="row ">
-          <div class="col-md-3">
+          <div class="col-md-4">
             <img [src]="articleList.image" class="img-responsive img">
           </div>
-          <div class="col-md-9">
+          <div class="col-md-8">
             <a class="contentTitle"
-               [routerLink]="articleList.link"><strong>{{articleList.title}}</strong></a>
-            <br/><br/>
-            <p>{{articleList.des}}</p>
+               [routerLink]="articleList.link"><strong><br/>{{articleList.title}}</strong></a>
+            <p class="des">{{articleList.des}}</p>
           </div>
         </div>
-        <hr class="hrBorder-top2" />
+       
       </div>
     </div>
 

@@ -14,7 +14,7 @@
             <tbody>
                 <tr *ngFor="let jihua of jihuas">
                     <td>{{jihua.leibie}}</td>
-                    <td>{{jihua.pro}}</td>
+                    <td> <a [routerLink]="jihua.link">{{jihua.pro}}</a></td>
                     <td>{{jihua.plan}}</td>
                     <td>{{jihua.wenping}}</td>
                 </tr>

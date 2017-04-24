@@ -1,17 +1,4 @@
-.bgh30 {
-    background: #ffffff;
-    height: 30px
-}
 
-.bgh10 {
-    background: #ffffff;
-    height: 10px
-}
-
-.bgh20 {
-    background: #ffffff;
-    height: 20px
-}
 
 .maincolor {
     color: #4f9d9d
@@ -19,5 +6,9 @@
 
 .blackColor {
     color: #000000
+}
+.carouselSize{
+    height: 300px;
+    width:100%
 }
 

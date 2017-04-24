@@ -1,24 +1,12 @@
-.btn-primary{
-background: #4f9d9d;
-}
 .fontWhite{
     color: #ffffff
 }
 .fontPrimary{
     color: #4f9d9d
 }
-.hoverable {
-    transition: box-shadow .25s;
-    box-shadow: 0;
-}
-.hoverable:hover {
-    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 .ctrlImgSize {
     height: 185px;
-    width: 95%;
-   
-   
+    width: 95%;  
 }
 .ctrlCaptionSize {
     height: 200px;
