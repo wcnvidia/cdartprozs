@@ -38,7 +38,7 @@ const Cards: Card[] = [
   },
   {
     title: "工资",
-    des: "3500元～12000元／月",
+    des: "合格毕业生3500元～12000元／月",
     bg: "table table-info",
     icon: "glyphicon glyphicon-eur fontColor fontSize"
   },
