@@ -1,1 +1,13 @@
-<p>12323123</p>
+<div class="bgCard card-background bgImg hoverable ">
+    <div class="table">
+        <h1 class=" majorTitle">环境艺术设计</h1>
+    </div>
+</div>
+<div class="card hoverable" *ngFor="let card of cards">
+    <div [class]="card.bg">
+        <h5 class="category-social">
+            <span [class]="card.icon" aria-hidden="true"></span><span class="fontColor fontSize">{{card.title}}</span>
+        </h5>
+        <p class="card-description majorText">{{card.des}}</p>
+    </div>
+</div>
