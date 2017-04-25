@@ -1,0 +1,12 @@
+.bgImg {
+    background: url(http://i2.muimg.com/591259/69eb55c8e2671ebb.jpg);
+    height: 500px;
+}
+
+@media screen and (max-width:768px) {
+    .bgImg {
+        background: url(http://i2.muimg.com/591259/69eb55c8e2671ebb.jpg);
+        background-attachment: fixed;
+        height: 300px;
+    }
+}

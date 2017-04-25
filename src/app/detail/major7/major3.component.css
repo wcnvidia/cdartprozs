@@ -1,5 +1,11 @@
 .bgImg{
-    background: url(http://i1.piimg.com/591259/0fca69265481aae7.jpg);
-    background-attachment: fixed;
-     height: 500px;
+    background: url(http://i1.piimg.com/591259/496b25f0fbcf1693.jpg);
+    height: 500px;
+}
+@media screen and (max-width:768px) {
+    .bgImg {
+        background: url(http://i1.piimg.com/591259/496b25f0fbcf1693.jpg);
+        background-attachment: fixed;
+        height: 300px;
+    }
 }

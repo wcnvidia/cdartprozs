@@ -1,24 +1,28 @@
-.fontWhite{
+.fontWhite {
     color: #ffffff
 }
-.fontPrimary{
+
+.fontPrimary {
     color: #4f9d9d
 }
+
 .ctrlImgSize {
     height: 185px;
-    width: 95%;  
+    width: 95%;
 }
+
+
+
 .ctrlCaptionSize {
     height: 200px;
     width: 100%;
 }
+
 .ctrlPSize {
     height: 120px;
     width: 100%;
 }
-.card-description{
+
+.card-description {
     height: 112px
 }
-
-
-

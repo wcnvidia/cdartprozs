@@ -26,7 +26,7 @@ const Footers: Footer[] = [
     content1: '联系我们',
     content2: '专业设置',
     content3: '乘车路线',
-    content4: '关于我们',
+    content4: '在线报名',
     class: 'col-md-3',
   },
 ]

@@ -49,7 +49,7 @@ const Cards: Card[] = [
   styleUrls: ['./major3.component.css']
 })
 export class Major2Component implements OnInit {
-cards = Cards;
+  cards = Cards;
   constructor() { }
 
   ngOnInit() {

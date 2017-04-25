@@ -3,3 +3,10 @@
     background-attachment: fixed;
      height: 500px;
 }
+@media screen and (max-width:768px) {
+    .bgImg {
+        background: url(http://i4.buimg.com/591259/a051f14bde404cdd.jpg);
+        background-attachment: fixed;
+        height: 300px;
+    }
+}
