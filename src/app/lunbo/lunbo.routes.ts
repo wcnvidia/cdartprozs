@@ -1,6 +1,8 @@
+
 import {Routes, RouterModule} from '@angular/router';
 import { NgModule } from '@angular/core';
 import {LunboComponent} from './lunbo.component';
+
 const LunboRoutes : Routes = [
   {
     path: '',

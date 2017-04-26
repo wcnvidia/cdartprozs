@@ -46,7 +46,12 @@
 <div class="bgh30"></div>
 
 <div class="container">
-    <h3 class="maincolor">校园生活</h3>
+    <div class="row">
+        <div class="col-md-6">
+            <h3 class="maincolor">校园生活</h3>
+        </div>
+        <div class="col-md-6"> <a class="btn btn-primary floatRight" routerLink="/more">更多</a></div>
+    </div>
     <hr/>
     <div class="row">
         <div class="col-md-3" *ngFor="let campusLive of campusLives">

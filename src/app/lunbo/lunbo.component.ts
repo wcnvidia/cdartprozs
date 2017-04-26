@@ -22,9 +22,9 @@ const CampusLives: CampusLive[] = [
   { url: "http://i4.buimg.com/591259/0df74baeba14890e.jpg" },
 ]
 const Tests: Test[] = [
-  { url: "http://i4.buimg.com/591259/4afe8618eee5ee73.jpg" },
-  { url: "http://i4.buimg.com/591259/4afe8618eee5ee73.jpg" },
-  { url: "http://i4.buimg.com/591259/4afe8618eee5ee73.jpg" },
+  { url: "http://i1.piimg.com/591259/93f3bf7736c209c5.jpg" },
+  { url: "http://i1.piimg.com/591259/4110df568a01405e.jpg" },
+  { url: "http://i1.piimg.com/591259/a2e388ddf8adbad0.jpg" },
 ]
 const CollegeNewses:CollegeNews[]=[
   {title:"属于程序员的未来|终极揭秘web前端后端开发",link:"/wenzhang/article1"},

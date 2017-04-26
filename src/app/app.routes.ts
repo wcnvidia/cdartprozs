@@ -44,6 +44,10 @@ export const routes: Routes = [
     loadChildren: 'app/lianxi/lianxi.module#LianxiModule'
   },
   {
+    path: 'more',
+    loadChildren: 'app/more/more.module#MoreModule'
+  },
+  {
     path: '**',
     loadChildren: 'app/lunbo/lunbo.module#LunboModule'
   },

@@ -9,10 +9,11 @@ import { TabsModule } from 'ngx-bootstrap';
 
 
 
+
 @NgModule(
   {
     imports:[CommonModule,LunboRoutingModule,CarouselModule.forRoot(), TabsModule.forRoot(),AdModule,],
-    declarations:[LunboComponent,RemenComponent ],
+    declarations:[LunboComponent,RemenComponent,],
   }
 )
 export class LunboModule {
