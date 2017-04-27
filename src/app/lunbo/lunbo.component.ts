@@ -16,15 +16,15 @@ export class CollegeDynamic{
   link:string;
 }
 const CampusLives: CampusLive[] = [
-  { url: "http://i4.buimg.com/591259/d46c4f49f9563203.jpg" },
-  { url: "http://i4.buimg.com/591259/6ab94195d6463890.jpg" },
-  { url: "http://i4.buimg.com/591259/0df74baeba14890e.jpg" },
-  { url: "http://i4.buimg.com/591259/0df74baeba14890e.jpg" },
+  { url: "http://i1.piimg.com/591259/ee2fa99ab95200e6.jpg" },
+  { url: "http://i1.piimg.com/591259/a2e388ddf8adbad0.jpg" },
+  { url: "http://i1.piimg.com/591259/93f3bf7736c209c5.jpg" },
+  { url: "http://i1.piimg.com/591259/2a0004599ec27311.jpg" },
 ]
 const Tests: Test[] = [
-  { url: "http://i1.piimg.com/591259/93f3bf7736c209c5.jpg" },
-  { url: "http://i1.piimg.com/591259/4110df568a01405e.jpg" },
-  { url: "http://i1.piimg.com/591259/a2e388ddf8adbad0.jpg" },
+  { url: "http://i4.buimg.com/591259/78e1b14c56873af6.jpg" },
+  { url: "http://i4.buimg.com/591259/937fa95b0c8beb44.jpg" },
+  { url: "http://i4.buimg.com/591259/05d9df1113ed1d1c.jpg" },
 ]
 const CollegeNewses:CollegeNews[]=[
   {title:"属于程序员的未来|终极揭秘web前端后端开发",link:"/wenzhang/article1"},

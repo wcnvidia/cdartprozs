@@ -1,16 +1,16 @@
 <router-outlet></router-outlet>
 <div class="container">
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3 hidden-sm hidden-xs">
             <div class="bgh65"></div>
             <app-ad></app-ad>
             <app-zhuanye-list></app-zhuanye-list>
         </div>
-        <div class="col-md-9">
+        <div class="col-md-9 ">
             <h3 class="title"><strong>专业设置</strong></h3>
             <hr class="hr" />
             <div class="row">
-                <div class="col-md-4" *ngFor="let zhuanye of zhuanyes">
+                <div class="col-md-4 col-sm-6" *ngFor="let zhuanye of zhuanyes">
                     <div class="card card-blog hoverable">
                         <div class="card-image">
                             <a [routerLink]="zhuanye.link"> <img class="img-responsive center-block" [src]="zhuanye.img"></a>

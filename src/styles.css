@@ -310,6 +310,16 @@ majorText {
         margin-left:10%;  
     }
 }
+@media screen and (max-width:768px) {
+    .carousel {
+        height:200px;  
+    }
+}
+@media screen and (max-width:768px) {
+    .carouselImg {
+        height:200px;  
+    }
+}
 .bgCard {
     display: inline-block;
     position: relative;
