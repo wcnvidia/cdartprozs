@@ -5,9 +5,9 @@ export class Carousel {
   url: string;
 }
 const Carousels: Carousel[] = [
-  { url: "http://i4.buimg.com/591259/aa4d7b20684f6cc7.jpg" },
-  { url: "http://i4.buimg.com/591259/660918feeff000ee.jpg" },
-  { url: "http://i4.buimg.com/591259/f268e79cbe4694b3.jpg" },
+  { url: "http://i2.muimg.com/591259/af31df48dae7e4cc.jpg" },
+  { url: "http://i2.muimg.com/591259/f1328c781696ad43.jpg" },
+  { url: "http://i2.muimg.com/591259/cbdcdb888987b420.jpg" },
 ]
 @Component({
   selector: 'app-fulunbo',
