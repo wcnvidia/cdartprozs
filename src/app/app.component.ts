@@ -16,8 +16,8 @@ const Footers: Footer[] = [
   {
     title: '联系我们',
     content1: '学校地址：成都市新津县花源镇白云大道115号',
-    content2: '咨询电话：',
-    content3: '联系QQ',
+    content2: '咨询电话：15680601897(李老师)',
+    content3: '联系QQ：1484656667（李老师）',
     content4: '邮编：611433',
     class: 'col-md-6',
   },

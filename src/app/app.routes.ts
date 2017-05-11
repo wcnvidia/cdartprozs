@@ -43,6 +43,10 @@ export const routes: Routes = [
     path: 'lianxi',
     loadChildren: 'app/lianxi/lianxi.module#LianxiModule'
   },
+   {
+    path: 'yuyue',
+    loadChildren: 'app/yuyue/yuyue.module#YuyueModule'
+  },
   {
     path: 'more',
     loadChildren: 'app/more/more.module#MoreModule'
